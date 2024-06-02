@@ -1,6 +1,6 @@
 # Cryptocurrency: ETL and Analysis
 
-This project automates an Extract, Transform, and Load (ETL) pipeline to gather cryptocurrency data from CoinMarketCap via web scraping. The clean data is then stored in a PostgreSQL database, readily available for analysis and visualization through an interactive dashboard.
+This is an Extract, Transform, and Load (ETL) pipeline to gather cryptocurrency data from CoinMarketCap via web scraping. The clean data is then stored in a PostgreSQL database, readily available for analysis and visualization through an interactive dashboard.
 
 &nbsp;
 ## Functionality
