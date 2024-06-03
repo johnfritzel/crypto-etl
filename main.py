@@ -41,7 +41,7 @@ def extract_data():
             page.evaluate(f"window.scrollTo(0, {scroll_height})")
 
             # Wait for the content to load
-            page.wait_for_timeout(2000) # Set to 2000 for internet speed consideration
+            page.wait_for_timeout(1000) # Set to 1000 for internet speed consideration
 
         # Fetch page content after loading
         source = page.content()
